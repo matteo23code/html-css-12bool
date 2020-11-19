@@ -38,3 +38,7 @@ clear:both;
 .col-12{
   width: 100%;
 }
+
+.container [class*="col-"] {
+  padding: 20px;
+}
