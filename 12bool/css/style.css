@@ -1,7 +1,11 @@
-[class*="col-*"]{
+[class*="col-"]{
   background: pink;
   border: 1px solid black;
   height: 300px;
   text-align: center;
   line-height: 300px
+}
+
+[class*="col-"] .container [class*="col-"]{
+  background: lightcoral;
 }
